@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let configJSON,
-  proxyIP = '',
+  proxyIP = 'cdn-all.xn--b6gac.eu.org',
   enableSOCKS5Proxy = null,
   enableSOCKS5GlobalProxy = false,
   mySOCKS5Account = '',
